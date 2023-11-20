@@ -80,21 +80,13 @@ const MyForm = () => {
                   <BootstrapForm.Group>
                     <label>Name</label>
                     <Field type="text" name="name" className="form-control" />
-                    <ErrorMessage
-                      name="name"
-                      component="div"
-                      className="text-danger"
-                    />
+                  \
                   </BootstrapForm.Group>
 
                   <BootstrapForm.Group>
                     <label>Email</label>
                     <Field type="text" name="email" className="form-control" />
-                    <ErrorMessage
-                      name="email"
-                      component="div"
-                      className="text-danger"
-                    />
+                  
                   </BootstrapForm.Group>
 
                   <BootstrapForm.Group>
@@ -118,11 +110,7 @@ const MyForm = () => {
                       name="confirmPassword"
                       className="form-control"
                     />
-                    <ErrorMessage
-                      name="confirmPassword"
-                      component="div"
-                      className="text-danger"
-                    />
+                  
                   </BootstrapForm.Group>
 
                   
@@ -133,11 +121,7 @@ const MyForm = () => {
                       name="phone"
                       className="form-control"
                     />
-                    <ErrorMessage
-                      name="phone"
-                      component="div"
-                      className="text-danger"
-                    />
+                  
                   </BootstrapForm.Group>
 
                   <BootstrapForm.Group>
@@ -148,11 +132,7 @@ const MyForm = () => {
                       <option value="Delhi">Delhi</option>
                       <option value="Mumbai">Mumbai</option>
                     </Field>
-                    <ErrorMessage
-                      name="city"
-                      component="div"
-                      className="text-danger"
-                    />
+                  
                   </BootstrapForm.Group>
 
                   <BootstrapForm.Group>
@@ -168,11 +148,7 @@ const MyForm = () => {
                         Female
                       </label>
                     </div>
-                    <ErrorMessage
-                      name="gender"
-                      component="div"
-                      className="text-danger"
-                    />
+                   
                   </BootstrapForm.Group>
 
                   <BootstrapForm.Group>
@@ -185,11 +161,7 @@ const MyForm = () => {
                         </label>
                       ))}
                     </div>
-                    <ErrorMessage
-                      name="hobbies"
-                      component="div"
-                      className="text-danger"
-                    />
+                   
                   </BootstrapForm.Group>
 
                   <Button type="submit" variant="primary" className="box" >

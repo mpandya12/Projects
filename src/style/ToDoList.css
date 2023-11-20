@@ -1,4 +1,4 @@
-body {
+.body {
  
   background: hsl(255, 50%, 98%);
   color: #121111;
@@ -9,11 +9,12 @@ body {
   width: 700px;
   margin-bottom: 1rem;
 }
-
-
-.App {
+.App{
   text-align: center;
 }
+
+
+
 
 .taskBg {
   background-color:#121111;
@@ -37,10 +38,12 @@ body {
   flex: 1;
 }
 
+
 .taskBg .done .taskText {
   text-decoration: line-through;
   opacity: 0.3;
 }
+
 
 .taskBg .iconsWrap {
   position: absolute;
@@ -67,11 +70,23 @@ body {
 .mr-20 {
   margin-right: 20px;
 }
-
 .btn-add{
-background-color: #121111;
-color: white;
+ 
+  background-color: #121111;
+  color: white;
+  width: 80px;
+  height: 40px;
+  margin-right: 10px;
+}
+:hover .btn-add{
+  background-color: white;
+  color: #121111;
 }
 
+:hover .adds{
+  background-color: #121111;
+  margin: 10px;
+
+}
 
 

@@ -9,6 +9,10 @@ import Index from "./Calculater/Index";
 
 
 import Toindex from "./To-do-list/ToIndex";
+import Todolist from "./To-do-list/Todolist";
+import ReactImageCrop from "./Image_cropeer/ReactImageCrop"
+import Tags from "./React_tags/Tags";
+//import Todolist from "./To-Do-App/Todolist";
 
 
 function App() {
@@ -21,7 +25,9 @@ function App() {
         <Route path="/" element={<Homepage/>}/>
         <Route path="/form" element={<MyForm/>}/>
         <Route path="/calculater" element={<Index/>}/>
-        <Route path="/ToDoList" element={<Toindex/>}/>
+        <Route path="/ToDoList" element={<Todolist/>}/>
+        <Route path="/Cropper" element={<ReactImageCrop/>}/>
+        <Route path="/Tag" element={<Tags/>}/>
 
           </Routes>
       </BrowserRouter>

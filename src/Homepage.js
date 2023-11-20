@@ -20,6 +20,13 @@ function Homepage() {
          <div className='class-1'>
           <button className='button-link'><Link to="/ToDoList" className='link'>ToDo</Link></button>
          </div>
+
+         <div className='class-1'>
+          <button className='button-link'><Link to="/Cropper" className='link'>Image_Cropper</Link></button>
+         </div>
+         <div className='class-1'>
+          <button className='button-link'><Link to="/Tag" className='link'>React_Tag</Link></button>
+         </div>
     </div>
     </>  
                

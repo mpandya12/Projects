@@ -1,7 +1,7 @@
 import React from "react";
 
 
-import "../App.css";
+ import "../App.css";
 import { useState } from "react";
 const options = [
   { id: 1, name: ' Traveling' },
@@ -50,7 +50,7 @@ function Form() {
       
   return (
     <>
-    <form action="" ></form>
+  
       <div className="container-fluid bg-dark text-light py-3">
         <header className="text-center">
           <h1 className="display-6">Welcome to our page</h1>
